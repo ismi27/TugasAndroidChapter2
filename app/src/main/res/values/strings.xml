@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TugasAndroidChapter2</string>
+    <string name="one">1</string>
+    <string name="the_silent_patient">THE SILENT PATIENT</string>
+    <string name="novel">Novel</string>
+    <string name="two">2</string>
+    <string name="buku_referensi">Buku Referensi</string>
+    <string name="three">3</string>
+    <string name="think_and_grow_rich">THINK AND GROW RICH</string>
+    <string name="english_grammar_in_use">ENGLISH GRAMMAR IN USE</string>
+    <string name="kebahasaan">Kebahasaan</string>
+    <string name="no">No</string>
+    <string name="judul">Judul</string>
+    <string name="kategori">Kategori</string>
+    <string name="alex_michaelides">Alex Michaelides</string>
+    <string name="napoleon_hill_ross_cornwell">Napoleon Hill, Ross Cornwell</string>
+    <string name="murphy_raymond">Murphy, Raymond</string>
+</resources>

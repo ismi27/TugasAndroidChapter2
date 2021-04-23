@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_silentpatient1"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="fitStart"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/silentpatient" />
+    <TextView
+        android:text="@string/the_silent_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_judul1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/alex_michaelides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_penulis1"
+        android:textStyle="italic"
+        android:layout_alignBottom="@id/tv_judul1"
+        android:layout_alignRight="@id/tv_judul1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/novel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_kategori1"
+        android:layout_alignBottom="@id/tv_penulis1"
+        android:layout_alignRight="@id/tv_penulis1"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+</RelativeLayout>

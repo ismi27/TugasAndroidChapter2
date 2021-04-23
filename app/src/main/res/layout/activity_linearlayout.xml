@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_silentpatient1"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/silentpatient" />
+    <TextView
+        android:text="@string/the_silent_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_judul1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/alex_michaelides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_penulis1"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/novel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_kategori1"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+    <ImageView
+        android:id="@+id/iv_thinkandgrowrich"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/thinkandgrowrich" />
+    <TextView
+        android:text="@string/think_and_grow_rich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_judul"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/napoleon_hill_ross_cornwell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_penulis"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/buku_referensi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_kategori"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+    <ImageView
+        android:id="@+id/iv_englishgrammarinuse"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/englishgrammarinuse" />
+    <TextView
+        android:text="@string/english_grammar_in_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_judul3"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/murphy_raymond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_penulis3"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/kebahasaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_kategori3"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+</LinearLayout>
+

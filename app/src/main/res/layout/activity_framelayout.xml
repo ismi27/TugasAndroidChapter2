@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_BG"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thinkandgrowrich"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_View1"
+        android:layout_marginTop="40dp"
+        android:background="#4C374A"
+        android:padding="10dp"
+        android:text="@string/think_and_grow_rich"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/txt_View2"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:text="22/4/2021"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+
+
+</FrameLayout>

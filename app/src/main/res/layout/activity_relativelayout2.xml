@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/sp"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="fitStart"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/silentpatient" />
+    <TextView
+        android:text="@string/the_silent_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/sp"
+        android:id="@+id/judul1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/penulis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul1"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="150dp"
+        android:text="@string/alex_michaelides"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:text="@string/novel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kategori1"
+        android:paddingLeft="200dp"
+        android:layout_below="@id/penulis1"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+
+
+
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/sp2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="fitStart"
+        android:layout_below="@id/sp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/thinkandgrowrich" />
+    <TextView
+        android:text="@string/think_and_grow_rich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/sp2"
+        android:layout_below="@id/sp"
+        android:id="@+id/judul2"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/penulis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul2"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="30dp"
+        android:text="@string/napoleon_hill_ross_cornwell"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:text="@string/buku_referensi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kategori2"
+        android:paddingLeft="80dp"
+        android:layout_below="@id/penulis2"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+
+
+
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/sp3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="fitStart"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/sp2"
+        android:src="@drawable/englishgrammarinuse" />
+    <TextView
+        android:text="@string/english_grammar_in_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/sp"
+        android:layout_below="@id/sp2"
+        android:id="@+id/judul3"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/penulis3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul3"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="150dp"
+        android:text="@string/murphy_raymond"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:text="@string/kebahasaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kategori3"
+        android:paddingLeft="200dp"
+        android:layout_below="@id/penulis3"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:textAlignment="center" />
+
+</RelativeLayout>
